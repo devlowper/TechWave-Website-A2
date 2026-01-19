@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- google font link font name:Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,7 +30,7 @@
                 <li><a href="#" class="small-text">Host</a></li>
             </ul>
 
-            <button class="btn1" type="button">Subscribe</button>
+            <button class="btn1" type="button">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
             </div>
         </nav>
         <section class="hero-container">
@@ -36,6 +40,7 @@
             <div class="circle-center">
             <img src="assets/hero-circle.png" alt="" class="circle">
             <img src="assets/microphone.png" alt="" class="mic">
+            <span class="badge">NEW</span>
             </div>
             
             <!-- </div> -->
@@ -45,8 +50,8 @@
             <p class="small-text">Your daily dose of tech insights, productivity hacks, and personal growth</p>
 
             <div class="banner-btn">
-                <button class="btn1" >Listen on Spotify</button>
-                <button class="btn2" type="button">Subscribe</button>
+                <button class="btn1" ><i class="fa-brands fa-spotify"></i> Listen on Spotify</button>
+                <button class="btn2" type="button"><i class="fa-regular fa-envelope"></i> Subscribe</button>
             </div>
             </div>
         </section>
@@ -126,48 +131,77 @@
         
     </section>
 
-    <section class="episode-container">
-        <h1 class="big-text">Featured Episodes</h1>
+    <section class="episode-container">  
+        <h1 class="big-text featured-margin">Featured Episodes</h1>
         
         <div class="video-card">
         <div class="vcard">
-            <h3 class="card-h3text">The Future of AI in Everyday Life</h3>
+            <iframe width="380" height="214" src="https://www.youtube.com/embed/oX7OduG1YmI?si=3ep1Yrl3dbIIH38n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            <div class="video-contain">
+            <h3 class="video-h3text">The Future of AI in Everyday Life</h3>
             <p class="small-text">Exploring how artificial intelligence is transforming our daily routines and what to expect in the next decade.</p>
-            <div class="flex">
+            <div class="flex clockp">
                 <img src="assets/clock.png" alt="">
                 <p>42 min</p>
             </div>
             </div>
+            </div>
 
             <div class="vcard">
-            <h3 class="card-h3text">Building Better Habits for Remote Work</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/hmtuvNfytjM?si=9wvFfsRo1tH6Gf0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="video-contain">
+            <h3 class="video-h3text">Building Better Habits for Remote Work</h3>
             <p class="small-text">Practical strategies for staying productive and maintaining work-life balance in a remote environment.</p>
-            <div class="flex">
+            <div class="flex clockp">
                 <img src="assets/clock.png" alt="">
                 <p>35 min</p>
             </div>
             </div>
+            </div>
 
 
             <div class="vcard">
-            <h3 class="card-h3text">Career Growth in Tech: A Roadmap</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/7ARBJQn6QkM?si=PYOPBa7QhGb8XPeD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+             <div class="video-contain">
+            <h3 class="video-h3text">Career Growth in Tech: A Roadmap</h3>
             <p class="small-text">Expert advice on navigating your tech career from junior developer to senior leadership roles.</p>
-            <div class="flex">
+            <div class="flex clockp">
                 <img src="assets/clock.png" alt="">
                 <p>52 min</p>
+            </div>
             </div>
             </div>
             </div>
             
 
         
+        <div class="Meet-section">
+        <h1 class="big-text featured-margin">Meet the Host</h1>
+        <div class="meet-card">
 
-        <h1 class="big-text">Meet the Host</h1>
-        <div class="card">
-            <img src="" alt="">
+            <img src="assets/host.png" alt="">
+            <div>
             <h3 class="card-h3text">Alex Kumar</h3>
             <p class="small-text">Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech industry for over 10 years, working with startups and Fortune 500 companies. Through TechWave, Alex shares insights from industry leaders and practical advice for anyone looking to grow in tech.</p>
+            <div class="meet-icon ">
+                <div class="circle-icon">
+                <img src="assets/linkedin.png" alt="">
+                </div>
 
+                <div class="circle-icon"><img src="assets/x.png" alt=""></div>
+                
+
+                <div class="circle-icon"><img src="assets/instagram.png" alt=""></div>
+                
+
+                <div class="circle-icon"><img src="assets/youtube.png" alt=""></div>
+                
+            </div>
+            </div>
+
+        </div>
         </div>
         
     </section>
