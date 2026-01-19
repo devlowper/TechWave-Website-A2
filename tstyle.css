@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.font-inter{
+  font-family: "Inter";
+  font-optical-sizing: auto;
+}
+
+/* share style */
+
+.bg-color1{
+    background: #1A0B2E;
+}
+
+.small-text{
+    color: rgba(250, 250, 250, 0.7);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 24px;
+
+}
+
+.big-text{
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.gradient{
+    background:linear-gradient(15deg,#F7E93F 16%,#FB09B4 40%, #9100F8 85%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn1{
+    color: #FFFFFF;
+    font-weight: 600;
+    background:linear-gradient(40deg,#F7E93F 17%,#FB09B4 50%, #9100F8 82%);
+    border: none;
+    border-radius: 41px;
+    padding: 12px 16px;
+
+}
+.btn2{
+    color: #00FF88;
+    font-weight: 600;
+    background: none;
+    border: 1px solid #00FF88;
+    border-radius: 41px;
+    padding: 12px 16px;
+
+}
+
+
+/* Navbar style */
+
+.logo{
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 2rem;
+
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 36.5px;
+    border-bottom: 1px solid #351165;
+
+}
+
+.navbar ul{
+    display: flex;
+    gap: 32px;
+    list-style: none;
+}
+.navbar a{
+    font-weight: 500;
+
+    text-decoration: none;
+}
+
+
+
+
+.hero-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 200px 200px auto;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #1A0B2E;
+  
+    align-items: center;
+    justify-content: center;
+    
+    background: url("./assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+    background-position: center;
+    
+  
+}
+
+
+
+
+.banner-contain{
+    grid-row: 3;
+    text-align: center;  
+    padding: 40px;
+}
+.banner-contain p{
+
+    margin-bottom: 24px;
+    margin-top: 10px;
+}
+
+
+.banner-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    
+}
+
+
+.circle-center{
+    grid-row: 2;
+    place-items: center;
+    justify-self: center;
+    justify-content: center;
+    display: grid;
+    width: 23%;
+    margin-top: -50px;
+ 
+}
+
+.circle{
+    grid-area: 1/1;
+    width: 100%;
+    height: auto;
+}
+.mic{
+    grid-area: 1/1;
+    width: 30%;
+    height: auto;
+}
+
+.about-container{
+    background: #1A0B2E;
+    text-align: center;
+    padding: 50px 30px 120px 30px;
+    display: flex;
+    align-items: center;
+   
+    flex-direction: column;
+}
+.about-container hr{
+    width: 90%;
+    margin:  20px auto;
+    border: none;
+    background: #FFFFFF;
+    opacity: 10%;
+    height: 1px;
+   
+
+}
+
+.about-pera{
+    max-width: 750px;
+    width: 100%;
+    
+    text-align: center;
+    padding: 20px 0;
+}
+
+.rating-container{
+    text-transform: uppercase;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+.rating-container h1{
+    color: #00FF88;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+/* Why Choose TechWave container */
+
+.why-choose-container{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 30px;
+    margin-bottom: 20px;
+
+}
+
+.why-container{
+    background: #230E3D;
+    padding: clamp(50px, 8vh, 120px) clamp(20px, 12vw, 200px);
+    width: 100%;
+    max-height: 1121px; 
+}
+
+.card-h1text{
+    margin-bottom: 40px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.card-ptext{
+    color: #FFFFFF;
+    font-weight: 400;
+    opacity: 80%;
+    font-size: 1rem;
+    line-height: 24px;
+
+}
+
+.card-h3text{
+    color: #FFFFFF;
+    font-weight: 700;
+    opacity: 80%;
+    font-size: 1.5rem;
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+}
+ .card{
+    background: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+    border: none;
+    padding: 40px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    
+ }
+
+.premium-audio{
+    grid-row: span 2;
+
+}
+.mobile-friendly{
+    grid-column: span 2 ;
+}
+.global-community{
+    grid-column: span 2 ;
+
+}
+.exclusive-interviews{
+    grid-column: span 2 ;
+}
+/* episode-container */
+.episode-container{
+    background-color: #1A0B2E;
+    padding: clamp(50px, 8vh, 120px) clamp(20px, 12vw, 200px);
+    
+}
+.video-card{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 30px;
+}
+
+.vcard{
+    background: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+    border: none;
+    padding: 24px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+/* footer-container */
+.footer-container{
+    background: url("./assets/footer-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 412px;
+     align-items: center;
+    justify-content: center;
+    
+     display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+
+.footer-content{
+    text-align: center;
+    flex-direction: column;
+    padding-bottom: 32px;
+   
+  
+    
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.icons{
+    gap: 40px;
+    margin-bottom: 32px;
+}
+.ic-text{
+    
+    gap: 8px;
+    
+}
+.logo2{
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 5rem;
+    line-height: auto;
+    margin-bottom: 32px;
+   
+}
