@@ -87,6 +87,12 @@
     text-decoration: none;
 }
 
+.menu-icon {
+    display: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
 
 
 
@@ -570,6 +576,12 @@
     /* navabar */
     .navbar ul{
         display: none;
+    }
+    .btn1 {
+        display: none;
+    }
+    .menu-icon {
+        display: block;
     }
       
     .hero-container{
